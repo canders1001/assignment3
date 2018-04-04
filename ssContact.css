@@ -1,0 +1,87 @@
+body {
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+}
+h1 {
+    color: burlywood;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 { 
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5a3e00;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: gold;
+    background-color: black;
+}
+
+img {
+    width: 30%;
+    height: 150px;
+}
+
+.mainpic {
+    width: 50%;
+    height: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: aqua;
+}
+
+.top {
+    background-color: #381d00;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.top-column { 
+    width: 100%;
+}
+
+.bottom-column { 
+    width: 100%;
+}
+
+.person {
+    float:left;
+    width: 50%;
+}
+
+.personpic {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.active { 
+    color: gold;
+    background-color: black;
+}

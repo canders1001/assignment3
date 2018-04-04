@@ -1,0 +1,66 @@
+body {
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: burlywood;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5a3e00;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: gold;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.left {
+    width: 65%;
+    float: left;
+}
+
+.right {
+    float: left;
+    width: 35%;
+    padding: 15px;
+    border: solid;
+    border-width: 5px;
+    font-size: 16px;
+}
+
+.container { 
+    width: 100%;
+}
+
+.active { 
+    color: gold;
+    background-color: black;
+}
